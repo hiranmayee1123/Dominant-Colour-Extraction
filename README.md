@@ -1,1 +1,4 @@
-# Dominant-Colour-Extraction
+# Color-Extraction
+Let us see how to extract the dominant colors of an image using Python. <a href="https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/#:~:text=Clustering%20is%20the%20task%20of,and%20assign%20them%20into%20clusters."><b>Clustering</b></a> is used in much real-world application, one such real-world example of clustering is extracting dominant colors from an image. 
+
+Any image consists of pixels, each pixel represents a dot in an image. A pixel contains three values and each value ranges between 0 to 255, representing the amount of red, green and blue components. The combination of these forms an actual color of the pixel. To find the dominant colors, the concept of the k-means clustering is used. One important use of k-means clustering is to segment satellite images to identify surface features. 
